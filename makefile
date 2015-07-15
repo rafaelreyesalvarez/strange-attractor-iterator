@@ -1,5 +1,5 @@
 all: cliff.c
-	gcc -Ofast -lm -o cliff cliff.c
+	gcc -Ofast -o cliff cliff.c -lm
 #	gcc -Ofast -free -m64 -mtune=native -mfpmath=sse -msse4.2 -lm cliff.c -o cliff
 
 icc:
